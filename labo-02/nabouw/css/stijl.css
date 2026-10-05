@@ -1,0 +1,113 @@
+/* stijl.css - Stroom, labo 2 */
+
+:root {
+  --papier: #fbf7f0;
+  --inkt: #2b2b2b;
+  --gedempt: #6b6b6b;
+  --accent: #b5451b;
+  --zebra: #f1e9dc;
+
+  --font-kop: Georgia, "Times New Roman", serif;
+  --font-tekst: Verdana, Geneva, sans-serif;
+
+  --maat-basis: 1rem;
+  --maat-intro: 1.25rem;
+  --maat-klein: 0.75rem;
+  --maat-kop-3: 1.25rem;
+  --maat-kop-2: 1.75rem;
+  --maat-kop-1: 2.5rem;
+  --regelhoogte: 1.6;
+}
+
+/* Basis: de rest erft hiervan (syllabus 2.6) */
+body {
+  background-color: var(--papier);
+  color: var(--inkt);
+  font-family: var(--font-tekst);
+  font-size: var(--maat-basis);
+  line-height: var(--regelhoogte);
+}
+
+/* Koppen: Georgia, niet vet */
+h1,
+h2,
+h3 {
+  font-family: var(--font-kop);
+  font-weight: normal;
+}
+
+h1 {
+  color: var(--accent);
+  font-size: var(--maat-kop-1);
+}
+
+h2 {
+  font-size: var(--maat-kop-2);
+}
+
+h3 {
+  font-size: var(--maat-kop-3);
+}
+
+/* Uitzonderingen op de basis */
+.slogan {
+  color: var(--gedempt);
+  font-style: italic;
+}
+
+.intro {
+  font-size: var(--maat-intro);
+}
+
+.prijs {
+  color: var(--gedempt);
+}
+
+/* Zebrapatroon op de kaart */
+.kaart li:nth-child(odd) {
+  background-color: var(--zebra);
+}
+
+/* Navigatie: accent, vet, zonder onderstreping */
+nav a {
+  color: var(--accent);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--inkt);
+  text-decoration: underline;
+}
+
+/* Links in main: accent, onderstreept */
+main a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+main a:hover,
+main a:focus {
+  background-color: var(--accent);
+  color: var(--papier);
+}
+strong {
+    font-weight: bold;
+    color: var(--accent);
+}
+/* Footer */
+footer {
+  color: var(--gedempt);
+  font-size: var(--maat-klein);
+  text-align: center;
+}
+
+footer a {
+  color: var(--gedempt);
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--accent);
+}
