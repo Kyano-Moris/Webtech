@@ -17,7 +17,7 @@ text-align: center centreerde de tekst en de kolom door margin-right: auto en ma
 ## 3. Tabblad
 
 - Wat is de visuele breedte van het tabblad, en waarom is dat exact 15rem en geen 15rem plus padding plus border?
-
+border-box op alle elementen. Hierdoor worden padding en border binnen de ingestelde width van 15rem berekend, waardoor de totale buitenste breedte van de box exact 15rem blijft.
 ## 4. Donut
 
 - Waarom werkt `height: 70%` op de cirkel, terwijl F3.2 zegt dat een procentuele hoogte meestal niets doet?
