@@ -11,7 +11,8 @@ De hoogte van de banden groeit mee met het scherm omdat ze op 50vh staan. De tek
 ## 2. Slogan
 
 - Welke property centreerde de tekst, en welke de kolom?
-- Waarom werkte de padding op de knop pas na `display: inline-block`?
+text-align: center centreerde de tekst en de kolom door margin-right: auto en margin-left: auto
+- Waarom werkte de padding op de knop pas na `display: inline-block`? Met display: inline-block krijgt het element de eigenschappen van een box-element, waardoor padding wel ruimte inneemt
 
 ## 3. Tabblad
 
