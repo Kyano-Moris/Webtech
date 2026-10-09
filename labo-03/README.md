@@ -4,7 +4,7 @@ Naam: (jouw naam)
 
 ## 1. Kleurenstalen
 
-- Welke twee waarden uit de user agent stylesheet moest je op de lijst wegwerken, en waar las je ze af? De standaard bolletjes en de linker insprong deze kan je aflezen in het computed tablad van de browser developer tools 
+- Welke twee waarden uit de user agent stylesheet moest je op de lijst wegwerken, en waar las je ze af?De twee waarden waren margin en padding, afgelezen bij de User Agent Stylesheet in DevTools. 
 - Wat verandert er aan de banden als je het venster hoger maakt, en wat verandert er niet?
 De hoogte van de banden groeit mee met het scherm omdat ze op 50vh staan. De tekstgrootte  en letterafstand  veranderen niet mee, want die staan ingesteld in rem
 
